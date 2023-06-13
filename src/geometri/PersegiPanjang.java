@@ -10,5 +10,13 @@ public class PersegiPanjang {
     public double keliling(){
         return 2*(panjang+lebar);
     }
+
+    public PersegiPanjang(double panjang, double lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
+
+    public PersegiPanjang() {
+    }
     
 }
